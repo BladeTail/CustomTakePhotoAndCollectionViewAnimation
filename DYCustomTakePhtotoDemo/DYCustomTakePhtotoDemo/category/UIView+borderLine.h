@@ -10,6 +10,8 @@
 
 @interface UIView (borderLine)
 
-- (void)cornerRadius:(CGFloat)cornerRadius borderColor:(CGColorRef)borderColor borderWidth:(CGFloat)borderWidth;
+- (void)cornerRadius:(CGFloat)cornerRadius
+         borderColor:(CGColorRef)borderColor
+         borderWidth:(CGFloat)borderWidth;
 
 @end

@@ -10,7 +10,9 @@
 
 @implementation UIView (borderLine)
 
-- (void)cornerRadius:(CGFloat)cornerRadius borderColor:(CGColorRef)borderColor borderWidth:(CGFloat)borderWidth
+- (void)cornerRadius:(CGFloat)cornerRadius
+         borderColor:(CGColorRef)borderColor
+         borderWidth:(CGFloat)borderWidth
 {
     self.clipsToBounds = YES;
     self.layer.cornerRadius = cornerRadius;

@@ -18,6 +18,7 @@ typedef NS_ENUM(NSInteger, TakePhotoPosition)
 @protocol  LMSTakePhotoControllerDelegate<NSObject>
 
 @optional
+//拍完照之后的返回的图片
 - (void)didFinishPickingImage:(UIImage *)image;
 
 @end
@@ -28,6 +29,6 @@ typedef NS_ENUM(NSInteger, TakePhotoPosition)
 
 @property (nonatomic,weak)id<LMSTakePhotoControllerDelegate> delegate;
 
-@property (nonatomic,assign)TakePhotoPosition position;
+@property (nonatomic,assign)TakePhotoPosition position;//以前置摄像头开启还是以后置摄像头开启拍照功能
 
 @end
