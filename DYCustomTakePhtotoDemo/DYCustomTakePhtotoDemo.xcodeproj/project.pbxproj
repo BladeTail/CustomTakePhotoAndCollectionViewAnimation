@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		5F5D9A5E1D2FA1D600AE11D5 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D9A5D1D2FA1D600AE11D5 /* UIImage+fixOrientation.m */; };
+		5F5D9A621D2FB1B900AE11D5 /* 2.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D9A5F1D2FB1B900AE11D5 /* 2.pic.jpg */; };
+		5F5D9A631D2FB1B900AE11D5 /* 3.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D9A601D2FB1B900AE11D5 /* 3.pic.jpg */; };
+		5F5D9A641D2FB1B900AE11D5 /* 4.pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5F5D9A611D2FB1B900AE11D5 /* 4.pic.jpg */; };
 		5FD4B3351CB0125A00239AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B3341CB0125A00239AA5 /* main.m */; };
 		5FD4B3381CB0125A00239AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B3371CB0125A00239AA5 /* AppDelegate.m */; };
 		5FD4B33B1CB0125A00239AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B33A1CB0125A00239AA5 /* ViewController.m */; };
@@ -43,6 +46,9 @@
 /* Begin PBXFileReference section */
 		5F5D9A5C1D2FA1D600AE11D5 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
 		5F5D9A5D1D2FA1D600AE11D5 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
+		5F5D9A5F1D2FB1B900AE11D5 /* 2.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.pic.jpg; sourceTree = "<group>"; };
+		5F5D9A601D2FB1B900AE11D5 /* 3.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.pic.jpg; sourceTree = "<group>"; };
+		5F5D9A611D2FB1B900AE11D5 /* 4.pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.pic.jpg; sourceTree = "<group>"; };
 		5FD4B3301CB0125A00239AA5 /* DYCustomTakePhtotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCustomTakePhtotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD4B3341CB0125A00239AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FD4B3361CB0125A00239AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -117,6 +123,9 @@
 		5FD4B3321CB0125A00239AA5 /* DYCustomTakePhtotoDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5F5D9A5F1D2FB1B900AE11D5 /* 2.pic.jpg */,
+				5F5D9A601D2FB1B900AE11D5 /* 3.pic.jpg */,
+				5F5D9A611D2FB1B900AE11D5 /* 4.pic.jpg */,
 				5FD4B36C1CB012D500239AA5 /* customPhoto */,
 				5FD4B3661CB0127E00239AA5 /* mainCrl */,
 				5FD4B3361CB0125A00239AA5 /* AppDelegate.h */,
@@ -294,10 +303,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F5D9A631D2FB1B900AE11D5 /* 3.pic.jpg in Resources */,
 				5FD4B3431CB0125A00239AA5 /* LaunchScreen.storyboard in Resources */,
 				5FD4B3711CB0131100239AA5 /* LMSTakePhotoController.xib in Resources */,
 				5FD4B3401CB0125A00239AA5 /* Assets.xcassets in Resources */,
 				5FD4B33E1CB0125A00239AA5 /* Main.storyboard in Resources */,
+				5F5D9A621D2FB1B900AE11D5 /* 2.pic.jpg in Resources */,
+				5F5D9A641D2FB1B900AE11D5 /* 4.pic.jpg in Resources */,
 				5FD4B36B1CB0129200239AA5 /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

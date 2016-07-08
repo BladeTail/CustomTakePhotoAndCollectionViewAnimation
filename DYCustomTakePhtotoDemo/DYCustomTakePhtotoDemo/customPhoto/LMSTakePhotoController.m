@@ -4,7 +4,8 @@
 //
 //  Created by 袁斌 on 16/3/10.
 //  Copyright © 2016年 __defaultyuan. All rights reserved.
-//
+//觉得这个功能可以的话、可以去点个赞 --> 本人github仓库https://github.com/DefaultYuan/__defaultyuan
+
 
 #import "LMSTakePhotoController.h"
 #import <AVFoundation/AVFoundation.h>
