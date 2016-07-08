@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5F5D9A5E1D2FA1D600AE11D5 /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F5D9A5D1D2FA1D600AE11D5 /* UIImage+fixOrientation.m */; };
 		5FD4B3351CB0125A00239AA5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B3341CB0125A00239AA5 /* main.m */; };
 		5FD4B3381CB0125A00239AA5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B3371CB0125A00239AA5 /* AppDelegate.m */; };
 		5FD4B33B1CB0125A00239AA5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD4B33A1CB0125A00239AA5 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5F5D9A5C1D2FA1D600AE11D5 /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
+		5F5D9A5D1D2FA1D600AE11D5 /* UIImage+fixOrientation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+fixOrientation.m"; sourceTree = "<group>"; };
 		5FD4B3301CB0125A00239AA5 /* DYCustomTakePhtotoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DYCustomTakePhtotoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FD4B3341CB0125A00239AA5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5FD4B3361CB0125A00239AA5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -181,6 +184,8 @@
 			children = (
 				5FD4B3731CB0140D00239AA5 /* UIView+borderLine.h */,
 				5FD4B3741CB0140D00239AA5 /* UIView+borderLine.m */,
+				5F5D9A5C1D2FA1D600AE11D5 /* UIImage+fixOrientation.h */,
+				5F5D9A5D1D2FA1D600AE11D5 /* UIImage+fixOrientation.m */,
 			);
 			name = category;
 			path = DYCustomTakePhtotoDemo/category;
@@ -319,6 +324,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5FD4B3751CB0140D00239AA5 /* UIView+borderLine.m in Sources */,
+				5F5D9A5E1D2FA1D600AE11D5 /* UIImage+fixOrientation.m in Sources */,
 				5FD4B33B1CB0125A00239AA5 /* ViewController.m in Sources */,
 				5FD4B3381CB0125A00239AA5 /* AppDelegate.m in Sources */,
 				5FD4B3701CB0131100239AA5 /* LMSTakePhotoController.m in Sources */,
@@ -551,6 +557,7 @@
 				5FD4B35F1CB0125A00239AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD4B3601CB0125A00239AA5 /* Build configuration list for PBXNativeTarget "DYCustomTakePhtotoDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -559,6 +566,7 @@
 				5FD4B3621CB0125A00239AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5FD4B3631CB0125A00239AA5 /* Build configuration list for PBXNativeTarget "DYCustomTakePhtotoDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -567,6 +575,7 @@
 				5FD4B3651CB0125A00239AA5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

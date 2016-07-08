@@ -42,7 +42,19 @@
 - (IBAction)takePicture:(id)sender {
 
     LMSTakePhotoController *p = [[LMSTakePhotoController alloc] init];
+    if (!p.isAuthorizedCamera || !p.isCameraAvailable) {
+        NSLog(@"不能拍照");
+        return;
+    }
+    
+    //注释以下两行其中一行可以切换前置或者后置摄像头
+//    p.position = TakePhotoPositionBack;
     p.position = TakePhotoPositionFront;
+
+    //注释以下两行其中一行可以实现身份证正面照拍摄或者背面照拍摄
+//    p.functionType = TakePhotoIDCardFrontType;
+//    p.functionType = TakePhotoIDCardBackType;
+
     p.delegate = self;
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:p];
     [self presentViewController:nav animated:YES completion:NULL];
