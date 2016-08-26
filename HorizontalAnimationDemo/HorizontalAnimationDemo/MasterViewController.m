@@ -12,7 +12,7 @@
 @interface MasterViewController ()<HAMainAnimationViewDelegate>
 
 @property (nonatomic, strong) NSMutableArray *dataArr;
-@property (nonatomic, strong) UIImageView *selectedImageView;
+@property (nonatomic, strong) UIView *selectedImageView;
 @property (nonatomic, strong) HAMainAnimationView *mainView;
 
 @end
@@ -47,7 +47,11 @@
     [self didCloseHAMainAnimationView];
     NSLog(@"选中了%@",item.title);
     [self.selectedImageView setHidden:NO];
-    [self.selectedImageView setImage:[UIImage imageNamed:item.img]];
+//    [self.selectedImageView setImage:[UIImage imageNamed:item.img]];
+    UIImage *selImg =  [UIImage imageNamed:item.img];
+    self.selectedImageView.layer.contents = (__bridge id)selImg.CGImage;
+    self.selectedImageView.layer.contentsScale = [UIScreen mainScreen].scale;
+    self.selectedImageView.layer.contentsRect = CGRectMake(0, 0, .5, .5);
 }
 
 - (void)didCloseHAMainAnimationView
@@ -64,10 +68,11 @@
     }
     return _mainView;
 }
--(UIImageView *)selectedImageView
+-(UIView *)selectedImageView
 {
     if (!_selectedImageView) {
-        _selectedImageView = [[UIImageView alloc] initWithFrame:CGRectMake(kMainWidth * 0.5 - 100, 200, 200, 200)];
+        _selectedImageView = [[UIView alloc] initWithFrame:CGRectMake(kMainWidth * 0.5 - 100, 200, 200, 200)];
+        _selectedImageView.layer.contentsGravity = kCAGravityResizeAspect;
     }
     return _selectedImageView;
 }
