@@ -4,8 +4,7 @@ DefaultYuan
 
 
 
-<img  src="https://raw.githubusercontent.com/DefaultYuan/DYCustomTakePhtotoDemo/master/2.png" width="640" height="960">
-
+<img  src="https://raw.githubusercontent.com/DefaultYuan/CustomTakePhotoAndCollectionViewAnimation/master/DYCustomTakePhtotoDemo/2.png" width="640" height="960">
 
 
 
