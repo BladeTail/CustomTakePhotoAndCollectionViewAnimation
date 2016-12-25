@@ -1,9 +1,14 @@
 # __defaultyuan
-个人仓库（个人收藏）
 
 DefaultYuan
 
-本人所用
+
+
+<img  src="https://raw.githubusercontent.com/DefaultYuan/DYCustomTakePhtotoDemo/master/2.png" width="640" height="960">
+
+
+
+
 
 本人微博名:__defaultyuan 
    微信号:yuanbin1267
